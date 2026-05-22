@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- BASIC SEO -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+91 Club Login & Register | Official Bonus Platform
+</title>
+
+<meta name="description"
+content="91 Club official platform for secure login, fast registration, welcome bonus rewards, cashback offers, and premium mobile gaming experience.">
+
+<meta name="keywords"
+content="91 Club, 91 Club Login, 91 Club Register, 91 Club Bonus, 91 Club App, online gaming platform, cashback rewards">
+
+<meta name="robots"
+content="index, follow">
+
+<meta name="author"
+content="91 Club">
+
+<meta name="theme-color"
+content="#a10000">
+
+<link rel="canonical"
+href="https://91club.com/">
+
+<!-- OPEN GRAPH SEO -->
+<meta property="og:title"
+content="91 Club Official Platform">
+
+<meta property="og:description"
+content="Claim welcome bonuses, cashback rewards, and premium gaming access on 91 Club.">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:url"
+content="https://91club.com/">
+
+<meta property="og:image"
+content="banner.webp">
+
+<!-- TWITTER SEO -->
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="91 Club Official Platform">
+
+<meta name="twitter:description"
+content="Exclusive rewards, cashback bonuses, and premium gaming access.">
+
+<meta name="twitter:image"
+content="banner.webp">
+
+<!-- SPEED OPTIMIZATION -->
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link rel="preload"
+as="image"
+href="banner.webp">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<!-- FAVICON -->
+<link rel="icon"
+type="image/png"
+href="favicon.png">
+
+<!-- STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"name":"91 Club",
+"url":"https://91club.com/",
+"description":"91 Club official gaming and bonus platform."
+}
+</script>
+
+<style>
+
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#050505;
+color:white;
+overflow-x:hidden;
+line-height:1.6;
+text-rendering:optimizeSpeed;
+-webkit-font-smoothing:antialiased;
+}
+
+/* IMAGE OPTIMIZATION */
+
+img{
+max-width:100%;
+height:auto;
+display:block;
+}
+
+/* BACKGROUND */
+
+.bg{
+position:fixed;
+inset:0;
+z-index:-1;
+background:
+radial-gradient(circle at top left,#680000 0%,transparent 35%),
+radial-gradient(circle at bottom right,#250000 0%,transparent 35%),
+#050505;
+}
+
+/* NAVBAR */
+
+nav{
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+top:0;
+background:rgba(0,0,0,0.78);
+backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(255,255,255,0.05);
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:14px;
+}
+
+.logo-circle{
+width:50px;
+height:50px;
+border-radius:14px;
+background:linear-gradient(135deg,#ff1e1e,#870000);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:22px;
+font-weight:700;
+color:white;
+box-shadow:0 0 20px rgba(255,0,0,0.25);
+}
+
+.logo-text{
+font-size:28px;
+font-weight:700;
+}
+
+/* BUTTONS */
+
+.nav-buttons{
+display:flex;
+gap:14px;
+}
+
+.btn{
+padding:14px 28px;
+border-radius:14px;
+text-decoration:none;
+font-size:14px;
+font-weight:600;
+transition:transform 0.3s ease;
+display:inline-block;
+cursor:pointer;
+}
+
+.login{
+background:#161616;
+border:1px solid rgba(255,255,255,0.08);
+color:#ff8080;
+}
+
+.register{
+background:linear-gradient(135deg,#ff2b2b,#a10000);
+color:white;
+box-shadow:0 8px 24px rgba(255,0,0,0.3);
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+/* HERO */
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:150px 20px 100px;
+}
+
+.hero-content{
+max-width:950px;
+animation:fadeUp 1s ease;
+}
+
+.badge{
+display:inline-block;
+padding:10px 22px;
+border-radius:50px;
+background:rgba(255,0,0,0.08);
+border:1px solid rgba(255,0,0,0.2);
+color:#ff8080;
+margin-bottom:28px;
+font-size:14px;
+}
+
+.hero h1{
+font-size:clamp(48px,8vw,92px);
+line-height:1;
+margin-bottom:28px;
+font-weight:800;
+}
+
+.hero h1 span{
+background:linear-gradient(to bottom,#ff6a6a,#ff1f1f);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+color:#c0c0c0;
+line-height:1.9;
+font-size:18px;
+max-width:760px;
+margin:auto;
+margin-bottom:45px;
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:18px;
+flex-wrap:wrap;
+}
+
+/* BONUS SECTION */
+
+.bonus-section{
+padding:0 8% 120px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.bonus-card{
+background:linear-gradient(135deg,#180000,#8a0000);
+padding:45px;
+border-radius:28px;
+border:1px solid rgba(255,255,255,0.08);
+box-shadow:0 15px 40px rgba(255,0,0,0.15);
+transition:0.35s ease;
+}
+
+.bonus-card:hover{
+transform:translateY(-8px);
+}
+
+.bonus-card h2{
+font-size:34px;
+margin-bottom:18px;
+}
+
+.bonus-card p{
+color:#e0e0e0;
+line-height:1.8;
+margin-bottom:28px;
+}
+
+/* FEATURES */
+
+.features{
+padding:0 8% 120px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:28px;
+}
+
+.feature-box{
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(255,255,255,0.05);
+padding:38px;
+border-radius:24px;
+transition:0.35s ease;
+}
+
+.feature-box:hover{
+transform:translateY(-8px);
+border-color:rgba(255,0,0,0.25);
+}
+
+.feature-icon{
+width:58px;
+height:58px;
+border-radius:16px;
+background:linear-gradient(135deg,#ff2b2b,#920000);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:24px;
+margin-bottom:20px;
+}
+
+.feature-box h3{
+font-size:22px;
+margin-bottom:14px;
+}
+
+.feature-box p{
+color:#9d9d9d;
+line-height:1.8;
+font-size:15px;
+}
+
+/* STATS */
+
+.stats{
+padding:0 8% 120px;
+display:flex;
+justify-content:center;
+gap:28px;
+flex-wrap:wrap;
+}
+
+.stat-card{
+width:240px;
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(255,255,255,0.05);
+border-radius:24px;
+padding:40px;
+text-align:center;
+}
+
+.stat-card h2{
+font-size:48px;
+margin-bottom:10px;
+color:#ff4040;
+}
+
+.stat-card p{
+color:#999;
+}
+
+/* FAQ SECTION */
+
+.faq-section{
+padding:0 8% 120px;
+max-width:1200px;
+margin:auto;
+}
+
+.faq-section h2{
+font-size:42px;
+margin-bottom:40px;
+text-align:center;
+}
+
+.faq-box{
+background:rgba(255,255,255,0.03);
+border:1px solid rgba(255,255,255,0.05);
+padding:35px;
+border-radius:22px;
+margin-bottom:24px;
+}
+
+.faq-box h3{
+font-size:22px;
+margin-bottom:14px;
+}
+
+.faq-box p{
+color:#b5b5b5;
+line-height:1.8;
+}
+
+/* FOOTER */
+
+footer{
+border-top:1px solid rgba(255,255,255,0.05);
+padding:35px 20px;
+text-align:center;
+color:#777;
+}
+
+/* ANIMATION */
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero p{
+font-size:15px;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.logo-text{
+font-size:24px;
+}
+
+.logo-circle{
+width:44px;
+height:44px;
+}
+
+nav{
+padding:16px 5%;
+}
+
+.features,
+.stats,
+.bonus-section,
+.faq-section{
+padding-left:5%;
+padding-right:5%;
+}
+
+.bonus-card{
+padding:35px;
+}
+
+.bonus-card h2{
+font-size:28px;
+}
+
+.faq-section h2{
+font-size:32px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+
+<div class="logo-circle">
+91
+</div>
+
+<div class="logo-text">
+Club
+</div>
+
+</div>
+
+<div class="nav-buttons">
+
+<a href="https://www.fqindia.com/#/login"
+class="btn login"
+target="_blank"
+rel="noopener">
+
+Login
+
+</a>
+
+<a href="https://www.fqindia.com/#/register?invitationCode=177271716"
+class="btn register"
+target="_blank"
+rel="noopener">
+
+Register
+
+</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="badge">
+🔥 Exclusive Bonus Rewards
+</div>
+
+<h1>
+Welcome to <br>
+<span>91 Club</span>
+</h1>
+
+<p>
+Claim exclusive welcome bonuses, cashback rewards, daily gifts, and premium gaming offers with fast registration and instant access.
+</p>
+
+<div class="hero-buttons">
+
+<a href="https://www.fqindia.com/#/register?invitationCode=177271716"
+class="btn register"
+target="_blank"
+rel="noopener">
+
+Claim Bonus
+
+</a>
+
+<a href="https://www.fqindia.com/#/login"
+class="btn login"
+target="_blank"
+rel="noopener">
+
+Login Now
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BONUS SECTION -->
+
+<section class="bonus-section">
+
+<div class="bonus-card">
+
+<h2>
+🔥 Welcome Bonus +500%
+</h2>
+
+<p>
+Register now and unlock your exclusive first deposit reward instantly with premium bonus access.
+</p>
+
+<a href="https://www.fqindia.com/#/register?invitationCode=177271716"
+class="btn register"
+target="_blank"
+rel="noopener">
+
+Claim Bonus
+
+</a>
+
+</div>
+
+<div class="bonus-card">
+
+<h2>
+💰 Daily Cashback
+</h2>
+
+<p>
+Enjoy cashback rewards, special promotions, and exclusive daily bonus opportunities.
+</p>
+
+<a href="https://www.fqindia.com/#/register?invitationCode=177271716"
+class="btn register"
+target="_blank"
+rel="noopener">
+
+Get Cashback
+
+</a>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+<div class="feature-box">
+
+<div class="feature-icon">
+🎁
+</div>
+
+<h3>
+Welcome Bonus
+</h3>
+
+<p>
+Unlock massive first deposit rewards and instant bonus activation after registration.
+</p>
+
+</div>
+
+<div class="feature-box">
+
+<div class="feature-icon">
+💸
+</div>
+
+<h3>
+Daily Cashback
+</h3>
+
+<p>
+Enjoy cashback rewards and premium bonus events available every single day.
+</p>
+
+</div>
+
+<div class="feature-box">
+
+<div class="feature-icon">
+👑
+</div>
+
+<h3>
+VIP Rewards
+</h3>
+
+<p>
+Exclusive premium rewards and high-value bonus offers designed for active users.
+</p>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div class="stat-card">
+
+<h2>
+500%
+</h2>
+
+<p>
+Welcome Bonus
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+24/7
+</h2>
+
+<p>
+Bonus Access
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+1M+
+</h2>
+
+<p>
+Happy Players
+</p>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="faq-section">
+
+<h2>
+Frequently Asked Questions
+</h2>
+
+<div class="faq-box">
+
+<h3>
+How to register on 91 Club?
+</h3>
+
+<p>
+Users can quickly create an account using the official register button available on the homepage.
+</p>
+
+</div>
+
+<div class="faq-box">
+
+<h3>
+Does 91 Club provide bonus rewards?
+</h3>
+
+<p>
+Yes, users can claim welcome bonuses, cashback offers, and premium reward benefits.
+</p>
+
+</div>
+
+<div class="faq-box">
+
+<h3>
+Is 91 Club mobile friendly?
+</h3>
+
+<p>
+Yes, the platform is fully optimized for Android smartphones, tablets, and modern mobile browsers.
+</p>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+© 2026 91 Club. All Rights Reserved.
+</p>
+
+<p style="margin-top:10px;">
+18+ Only • Play Responsibly
+</p>
+
+</footer>
+
+</body>
+
+</html>
